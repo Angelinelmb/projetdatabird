@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Voyage avec les oiseaux</title>
+        	<meta name="titel" content="Voyage avec les oiseaux is a website for bird migration data" />
+        	<meta name="description" content="Voyage avec les oiseaux is a website for bird migration data" />
+        	<link rel="stylesheet" href="datadesign.css"> <!-- Lien vers le fichier CSS -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js"></script>
+            <script src="parallax.js"></script>
+            
+        	
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="datadesignpage2.html" titre="page données">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </a>
+        </div>
+		<h1 class="titre">voyAGe Avec les oiseAuX</h1>
+        
+		<!--Introduction-->
+        <h2 class="soustitre1">comprendre les migrations</h2>
+        <div class="parallax-container">
+        <div class="parallax-item" data-rellax-speed="-3">
+        <div id="container"></div>
+
+        <script src="three.js"></script>
+        <script src="Projector.js"></script>
+        <script src="CanvasRenderer.js"></script>
+        <script src="stats.min.js"></script>
+        <script src="Bird.js"></script>
+        <script src="boid.js"></script>
+
+        <div id="oiseaux">
+            <script src="showBirds.js"></script>
+            <!-- 
+                Le fichier showBirds.js permet de modifier :
+                
+                la largeur = var SCREEN_WIDTH = window.innerWidth, 
+                la hauteur = SCREEN_HEIGHT = 100,
+                la position à partir de la gauche = SCREEN_WIDTH_HALF = SCREEN_WIDTH  / 2,
+                la position à partir du haut = SCREEN_HEIGHT_HALF = SCREEN_HEIGHT / 2; 
+                couleur de fond = scene.background = new THREE.Color( 0xeeeeee );
+            -->
+        </div>
+        <div id="sketch-container"></div>
+        </div>
+        </div>
+        </div>
+
+		
+		<!--Presentation projet-->
+                <div class="white-boxfirst">
+                    <h2 class="soustitre2">présentation du projet </h2><br><br>
+                    <p class="paragraphefirst">Voyage avec les oiseaux est un site web créé par Angeline dans le cadre d'un projet d'étude du Master CEN à l'université de Paris 8.</p>
+                    <hr>
+                    <p class="paragraphefirst">Ce site traitera des migrations de 50 espèces d'oiseaux migrateurs dans le monde à travers différents types de datavisualisation.</p>
+                    <hr>
+                    <p class="paragraphefirst">Leur population, déplacements, habitats et différents flux de migrations pourront être visualisés grâce à des solutions de graphiques interactifs comme Flourish et RawGraphs. Les données récoltées se basent sur des sites comme LPO.fr, Migraction.net et Faune-France.org.</p>
+                    <hr>
+                    <p class="paragraphefirst">Nous nous attarderons ici sur une infime partie d'espèces d’oiseaux et de données sur le phénomène des migrations, car c'est un sujet très complexe où beaucoup de choses peuvent être abordées.</p>
+                    <br><br><br>
+                </div>
+                <!--Partie 1-->
+                <div class="containeronebis">
+                    <div class="text-containerone">
+                        <h2 class="soustitre3">le spectacle fasciant des migrations</h2><br><br>
+                <p class="text-right1bis">Qu’allons-nous voir?</p>
+                <hr>
+                <p class="text-right1">Le terme "migrateur" signifie qu'une espèce d'oiseau effectue un déplacement saisonnier selon les périodes de reproduction ou d'hivernage dans deux régions différentes, et ce de la même façon chaque année. Nous nous attarderons donc sur 50 espèces d'oiseaux migrateurs venant du monde entier, dont des données assez diversifiées ont pu être récoltées.</p>
+                <p class="text-right1">Ce graphique regroupe ces 50 espèces par famille, selon leur nom scientifique et vernaculaire. Grâce à un diagramme alluvial, nous pouvons avoir une vue globale sur les 50 espèces d'oiseaux regroupées en 9 familles différentes.</p>
+                </div>
+                    
+
+                <div class="diagram-containeronebis">
+                    <div class="white-boxone">
+                        <div class="flourish-embed flourish-sankey" data-src="visualisation/15889342"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                    </div>
+                </div>
+            </div>
+                <!--Partie 2-->
+                <div class="parallax-container">
+                <div class="containertwo">
+                <div class="text-containertwo">
+                    <h2 class="soustitre3">une dynamique surprenante</h2><br><br>
+                <p class="text-right2bis">Comment se répartissent-ils ?</p>
+                <hr>
+                <p class="text-left1">Des milliards d’oiseaux se déplacent chaque année, poussés par la raréfaction de leurs ressources alimentaires, les conditions climatiques changeantes, et la diminution de la longueur des jours.</p>
+                <p class="text-left1">Ce schéma représente le nombre d’oiseaux par espèce présents dans le monde, par rapport à chaque autre espèce. Il s’agit d’une estimation calculée dans les années 2000. </p>
+            </div>    
+
+            <div class="diagram-containertwo">
+            <div class="white-boxtwo">
+                <div class="flourish-embed flourish-hierarchy" data-src="visualisation/15897810"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+            </div>
+        </div>
+        </div>
+        </div>
+                <!--Partie 3-->
+                <div class="containerone">
+                    <div class="text-containerone">
+                        <h2 class="soustitre3bis">à chaque aile son envolée</h2><br><br>
+                        <p class="text-right1bis">Comment se déplacent-ils ?</p>
+                        <hr>
+                        <p class="text-right1">Chaque espèce d'oiseaux possède un type de locomotion principal distinct.</p>
+                        <p class="text-right1">Certains exploitent des courants d'air chaud pour s'élever et utilisent donc le vol plané, ce qui leur permet de parcourir de très longues distances sans dépenser trop d'énergie. D'autres utilisent le vol battu, nécessitant une musculature et une réserve de graisse plus importantes. Enfin, certains utilisent la nage et profitent des masses d'air déplacées par le mouvement des vagues pour se déplacer sans effort sur l’eau.</p>
+                        <p class="text-right1">Cette visualisation nous présente les différents modes de locomotion de chaque espèce et de leur familles distinctes.</p>     
+                    </div>  
+                    
+                    <div class="diagram-containerone">
+                        <div class="white-boxone">
+                    <img src="data3.svg" alt="data">
+                </div>
+            </div>
+            </div>
+                <!--Partie 4-->
+                <div class="parallax-container">
+                <div class="containertwo">
+                    <div class="text-containertwo">
+                        <h2 class="soustitre3ters">une épopée</h2>
+                            <h2 class="soustitre3ter">en vitesse</h2><br><br>
+                        <p class="text-right2bis">Sont-ils rapides pendant leur migration ?</p>
+                        <hr>
+                        <p class="text-left1">La vitesse de vol d’un oiseau peut varier selon l’espèce, mais aussi selon la taille de l’oiseau; celui ayant des ailes plus grandes pourra atteindre des vitesses plus impressionnantes.</p> 
+                        <p class="text-left1">Le graphique montre la vitesse moyenne de chaque espèce par rapport aux autres espèces en km/h et à quelle famille elle appartient.</p>
+                    </div> 
+                    <div class="diagram-containertwo">
+                        <div class="white-boxtwo">
+                    <div class="flourish-embed flourish-chart" data-src="visualisation/16387237"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                    </div>
+                </div>
+                </div>
+                </div>
+           
+                <!--Partie 5-->
+                <div class="containerone">
+                    <div class="text-containerone">
+                        <h2 class="soustitre3ters">une traversée </h2>
+                            <h2 class="soustitre3ter">à risques</h2><br><br>
+                        <p class="text-right5bis">Combien de kilomètres peuvent-ils parcourir ?</p>
+                        <hr>
+                        <p class="text-right5">Chaque année, que ce soit à l'automne ou au printemps, des milliards d'oiseaux, regroupés par espèces et sous-espèces, migrent d'un endroit à un autre.</p> 
+                        <p class="text-right5">Vers leur aire d'hivernage ou de reproduction et de nidification, ils parcourent ainsi plusieurs centaines de kilomètres, parfois volant pendant plusieurs jours d'affilée, sans escales sur le continent.</p>
+                        <p class="text-right5">Cette datavisualisation exprime cette distance parcourue en moyenne par an, par rapport aux autres espèces. Il est associé au nom vernaculaire son nom scientifique ainsi que sa population mondiale estimée : plus un triangle est grand, plus la population est importante.</p>
+                    </div> 
+                    
+                    <div class="diagram-containerone">
+                        <div class="white-boxone">
+                    <div class="flourish-embed flourish-scatter" data-src="visualisation/16391677"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                </div>
+            </div>
+            </div>
+                <!--Partie 6-->
+                <div class="containertwoter">
+                    <div class="text-containertwo">
+                        <h2 class="soustitre4ters">d'un habitat</h2> 
+                        <h2 class="soustitre4ter"> à un autre</h2><br><br>
+                        <p class="text-right2bister">Où vont-ils ?</p>
+                        <hr>
+                        <p class="text-left1ter">Chaque année, les oiseaux migrateurs se déplacent d'une aire de reproduction, une région chaude, à une aire d'hivernage, une région qui pourra offrir des caractéristiques écologiques et géographiques optimales comme la présence de nourriture ou d'abris naturels, facilitant leur séjour.</p>
+                            <p class="text-left1ter">Ce globe terrestre traduit la distance parcourue moyenne pour un aller (d'une zone de nidification possible à une zone d'hivernage possible) des 5 espèces qui détiennent les plus longues migrations par rapport à la liste des 50 oiseaux migrateurs, exprimée en kilomètres.</p>
+                        </div>
+                        <div class="diagram-containertwo">
+                            <div class="white-boxtwo">
+                    <div class="flourish-embed flourish-globe" data-src="visualisation/16399326"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                </div>
+            </div>
+            </div>
+                <script src="script.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                <script>
+                    // Initialise Rellax
+                    var rellax = new Rellax('.parallax-item');
+                </script>
+
+                <footer class="footer">
+                    <div class="footer-content">
+                        <div class="footer-item left">
+                            <p>Angeline</p>
+                        </div>
+                        <div class="footer-item center">
+                            <p>M1 CEN</p>
+                        </div>
+                        <div class="footer-item right">
+                            <p>Université de Paris 8</p>
+                        </div>
+                    </div>
+                </footer>
+
+	</body>
+</html>
