@@ -1,0 +1,467 @@
+/* Importer la police Major Mono Display depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* Importer la police Helvetica depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
+
+/* Appliquer la police Major Mono Display au titre avec la classe "titre" */
+.titre {
+    font-family: 'Major Mono Display', monospace;
+    color: #333333; /* Couleur du texte */
+    font-size: 7em; /* Taille de la police */
+    letter-spacing: 2px; /* Espacement entre les caractères */
+    line-height: 1.5; /* Hauteur de ligne */
+    margin-bottom: 20px; /* Marge en bas */
+    text-align: center;
+}
+
+/* Appliquer la police Major Mono Display au sous-titre avec la classe "sous-titre" */
+.soustitre {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    font-size: 1.5em; /* Taille de la police */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 5; /* Hauteur de ligne */
+    margin-bottom: 15px; /* Marge en bas */
+    
+}
+
+/* Appliquer la police Helvetica aux paragraphes avec la classe "paragraphe" */
+.paragraphe {
+    font-family: 'Helvetica', sans-serif;
+    color: #777; /* Couleur du texte */
+    font-size: 1em; /* Taille de la police */
+    letter-spacing: 0.5px; /* Espacement entre les caractères */
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.grandtitre {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    font-size: 1.5em; /* Taille de la police */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 5; /* Hauteur de ligne */
+    margin-bottom: 15px; /* Marge en bas */
+    margin-right: 20px; /* Marge à droite */
+    text-align: center; /*centrer le texte */
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 30px; /* Ajustez la valeur selon votre préférence pour le décalage depuis le haut */
+    right: 30px; /* Ajustez la valeur selon votre préférence pour le décalage depuis la droite */
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #6d808b;
+}
+
+#backButton {
+    width: 50px; /* Ajustez la largeur selon vos besoins */
+    height: 50px; /* Ajustez la hauteur selon vos besoins */
+    cursor: pointer;
+}
+
+.download-section a {
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+#backButton {
+    position: fixed;
+    top: 50px; /* Ajustez la valeur selon votre préférence pour le décalage depuis le haut */
+    right: 50px; /* Ajustez la valeur selon votre préférence pour le décalage depuis la droite */
+    cursor: pointer;
+}
+
+.autretitre {
+    font-family: 'Major Mono Display', monospace;
+    color: #333333; /* Couleur du texte */
+    font-size: 7em; /* Taille de la police */
+    letter-spacing: 2px; /* Espacement entre les caractères */
+    line-height: 1.5; /* Hauteur de ligne */
+    margin-bottom: 20px; /* Marge en bas */
+    text-align: center;
+}
+
+.white-box {
+    width: 900px; /* ajustez la largeur selon vos besoins */
+    height: 1000px; /* ajustez la hauteur selon vos besoins */
+    background-color: #fff; /* couleur de fond blanche */
+    margin: 50px auto; /* ajustez la marge selon vos besoins */
+    padding: 30px; /* ajustez le rembourrage selon vos besoins */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ombre légère */
+    margin: 50px 0 50px 10px; /* Ajustez la marge selon vos besoins (haut, droite, bas, gauche) */
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #aadfda); /* Dégradé du blanc au noir */
+    background-attachment: fixed; /* Le dégradé reste fixe pendant le défilement */
+    color: #000000; /* Couleur du texte, changez selon vos besoins */
+    transition: background-color 0.5s ease; /* Transition douce pour le changement de couleur de fond */
+}
+
+.espace {
+    margin-top: 500px;
+}
+
+.soustitre1 {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 8; /* Hauteur de ligne */
+    margin-bottom: 10px; /* Marge en bas */
+    text-align: center;
+    
+}
+
+.soustitre2 {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 4; /* Hauteur de ligne */
+    text-align: center;
+    margin-top: 300px;
+}
+
+.text-left1 {
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.white-boxfirst {
+    background-color: #ffffff00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* ombre légère */
+    padding: 50px;
+    margin-top: 30px; /* Ajustez la valeur en pixels selon vos besoins */
+    margin-bottom: 70px; /* Ajustez la valeur en pixels selon vos besoins */
+    margin-left: 100px; /* Ajustez la valeur en pixels selon vos besoins */
+    margin-right: 100px; /* Ajustez la valeur en pixels selon vos besoins */
+}
+
+.paragraphefirst {
+    color: #1d1d1d; /* Couleur du texte */
+    letter-spacing: 0.5px; /* Espacement entre les caractères */
+
+}
+
+hr {
+    display: none;
+}
+
+.containerone {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Marge à gauche et à droite */
+    background-color: #ffffff; /* Couleur du fond du carré blanc */
+    padding: 20px; /* Espace intérieur du carré blanc */
+    margin: 200px auto; /* Ajustez la marge en haut et en bas selon vos besoins */
+
+}
+
+.text-containerone {
+    width: 45%; /* Largeur du conteneur de texte */
+    margin-top: -50px; /* Adjust the negative margin to move the content up */
+}
+
+.diagram-containerone {
+    width: 60%; /* Largeur du conteneur de diagramme */
+
+}
+
+.diagram-containeronebis {
+    width: 100%; /* Largeur du conteneur de diagramme */
+
+}
+
+.white-boxone {
+        padding: 8px; /* Espace intérieur de la boîte blanche */
+        margin-top: 10px; /* Ajouter une marge en haut pour créer de l'espacement */
+        margin-bottom: 50px; /* Ajouter une marge en bas pour créer de l'espacement */
+}
+
+.text-containertwo {
+    width: 100%; /* Largeur du conteneur de texte */
+
+}
+
+.containertwo {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Marge à gauche et à droite */
+    background-color: #ffffff; /* Couleur du fond du carré blanc */
+    padding: 20px; /* Espace intérieur du carré blanc */
+    margin: 200px auto; /* Ajustez la marge en haut et en bas selon vos besoins */
+    position: relative;
+    background-color: #cedad6; /* Remplacez ceci par la couleur de gris que vous préférez */
+
+
+}
+
+.text-containertwo {
+    width: 45%; /* Largeur du conteneur de texte */
+    order: 2; /* Changer l'ordre à 2 pour le déplacer vers la droite */
+
+}
+
+.diagram-containertwo {
+    width: 60%; /* Largeur du conteneur de diagramme */
+    order: 1; /* Changer l'ordre à 1 pour le déplacer vers la gauche */
+
+}
+
+.white-boxtwo {
+        padding: 10px; /* Espace intérieur de la boîte blanche */
+        margin-top: 10px; /* Ajouter une marge en haut pour créer de l'espacement */
+        margin-bottom: 50px; /* Ajouter une marge en bas pour créer de l'espacement */
+        
+}
+
+.text-right1 {
+    text-align: right;
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5; /* Ajustez la valeur selon vos préférences pour l'espace interligne */
+    margin-right: 20px; /* Ajustez la marge à droite selon vos préférences */
+    margin-left: 40px; /* Ajustez la marge à gauche selon vos préférences */
+}
+
+.text-right1bis {
+    text-align: right;
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    margin-right: 20px; /* Ajustez la marge à droite selon vos préférences */
+}
+
+.text-right2bis {
+    text-align: left;
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    margin-left: 70px; /* Ajustez la marge à droite selon vos préférences */
+}
+
+.soustitre3 {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 2; /* Hauteur de ligne */
+    text-align: center;
+    margin-top: 180px; /* Ajustez cette valeur en fonction de vos besoins */
+    font-weight: 800;
+
+}
+
+.text-left1 {
+    text-align: right;
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5; /* Ajustez la valeur selon vos préférences pour l'espace interligne */
+    margin-right: 50px; /* Ajustez la marge à droite selon vos préférences */
+    margin-left: 70px; /* Ajustez la marge à gauche selon vos préférences */
+}
+
+.footer {
+    background-color: #6d808b;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containertwobis {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Marge à gauche et à droite */
+    background-color: #ffffff; /* Couleur du fond du carré blanc */
+    padding: 20px; /* Espace intérieur du carré blanc */
+    margin: 200px auto; /* Ajustez la marge en haut et en bas selon vos besoins */
+    
+
+}
+
+.white-boxone img {
+    width: 90%; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra spacing */
+    margin: 0; /* Reset margin for the image */
+}
+
+.soustitre3bis {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 2; /* Hauteur de ligne */
+    text-align: center;
+    margin-top: 180px; /* Ajustez cette valeur en fonction de vos besoins */
+    font-weight: 800;
+    margin-top: 80px; 
+
+}
+
+.soustitre3ter {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 2; /* Hauteur de ligne */
+    text-align: center;
+    margin-top: 5px; /* Ajustez cette valeur en fonction de vos besoins */
+    font-weight: 800;
+
+}
+
+.soustitre3ters {
+    font-family: 'Major Mono Display', monospace;
+    color: #555; /* Couleur du texte */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 2; /* Hauteur de ligne */
+    text-align: center;
+    margin-top: 90px; /* Ajustez cette valeur en fonction de vos besoins */
+    font-weight: 800;
+
+}
+
+.text-right5 {
+    text-align: right;
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5; /* Ajustez la valeur selon vos préférences pour l'espace interligne */
+    margin-right: 80px; /* Ajustez la marge à droite selon vos préférences */
+    margin-left: 40px; /* Ajustez la marge à gauche selon vos préférences */
+}
+
+.text-right5bis {
+    text-align: right;
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    margin-right: 80px; /* Ajustez la marge à droite selon vos préférences */
+}
+
+.soustitre4ter {
+    font-family: 'Major Mono Display', monospace;
+    color: #ffffff; /* Couleur du texte */
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 2; /* Hauteur de ligne */
+    text-align: center;
+    margin-top: 5px; /* Ajustez cette valeur en fonction de vos besoins */
+    font-weight: 800;
+
+}
+
+.soustitre4ters {
+    font-family: 'Major Mono Display', monospace;
+    color: #ffffff; /* Couleur du texte 2B353A*/
+    letter-spacing: 1px; /* Espacement entre les caractères */
+    line-height: 2; /* Hauteur de ligne */
+    text-align: center;
+    margin-top: 50px; /* Ajustez cette valeur en fonction de vos besoins */
+    font-weight: 800;
+
+}
+
+.containeronebis {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Marge à gauche et à droite */
+    background-color: #ffffff; /* Couleur du fond du carré blanc */
+    padding: 20px; /* Espace intérieur du carré blanc */
+    margin: 200px auto; /* Ajustez la marge en haut et en bas selon vos besoins */  
+}
+
+.containertwoter {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Marge à gauche et à droite */
+    background-color: #2b353a; /* Couleur du fond du carré blanc 2B353A*/
+    padding: 20px; /* Espace intérieur du carré blanc */
+    margin: 50px auto; /* Ajustez la marge en haut et en bas selon vos besoins */
+
+}
+
+.text-right2bister {
+    text-align: left;
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    margin-left: 80px; /* Ajustez la marge à droite selon vos préférences */
+    color: #ffffff; /* Couleur du texte 2B353A*/
+    text-align: justify;
+    line-height: 1.5; /* Ajustez la valeur selon vos préférences pour l'espace interligne */
+
+    
+
+}
+
+.text-left1ter {
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    color: #ffffff; /* Couleur du texte 2B353A*/
+    margin-left: 80px; /* Ajustez la marge à droite selon vos préférences */
+    letter-spacing: 1px; /* Ajustez la valeur selon vos préférences */
+    font-family: 'Arial', sans-serif; /* Choisissez la police souhaitée */
+    font-size: 16px; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5; /* Ajustez la valeur selon vos préférences pour l'espace interligne */
+
+
+}
