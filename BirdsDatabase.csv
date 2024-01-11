@@ -1,0 +1,51 @@
+Nom scientifique,Nom vernaculaire,Famille,Population mondiale années 2000 (estimation),"Types de locomotion principal (vol battu, vol plané, nage)",Habitat hivernal,Habitat estival,Diurne ou Nocturne,Vitesse de vol moyenne (km/h),Distance parcourue en moyenne par an (km)
+Larus fuscus,Goéland brun,Laridae,700000,Vol battu,"Europe occidentale, Méditerranée, Amérique du Nord","Bassin Méditerranéen, Afrique de l'Ouest, Europe du Nord",Diurne,40,10000
+Branta bernicla,Bernache cravant,Anatidae,570000,Vol battu,"Europe du Nord, Amérique du Nord","Arctique et Subarctique, Toundra",Diurne,60,6000
+Anas acuta,Canard pilet,Anatidae,7000000,Vol battu,"Europe du nord-ouest, Afrique, Asie du Sud, Amérique du Nord, Amérique Centrale ","Europe du Nord, Russie, Amérique du Nord",Diurne,80,7000
+Puffinus puffinus,Puffin des Anglais,Procellariidae,410000,"Vol battu, Vol plané","Océan Atlantique, Afrique du Nord",Europe du Nord,Diurne,100,15000
+Tadorna tadorna,Tadorne de Belon,Anatidae,710000,"Vol battu, Vol plané","Europe côtière, Bassin Méditérranéen, Afrique du Nord","Europe arctique, Asie arctique, Russie arctique, Canada nord",Diurne,60,3000
+Sterna hirundo,Sterne pierregarin,Laridae,1000000,Vol battu,"Afrique, Amérique du Sud, Asie du Sud","Europe, Asie, Amérique du Nord",Diurne,40,10000
+Branta leucopsis,Bernache nonnette,Anatidae,437000,"Vol battu, Vol plané, Nage","Europe, Amérique du Nord",Arctique et Subartique,Diurne,50,4000
+Cygnus cygnus,Cygne chanteur,Anatidae,180000,"Vol battu, Vol plané","Europe, Asie",Arctique et Subartique,Diurne,60,4000
+Cygnus columbianus,Cygne de Bewick,Anatidae,23000,"Vol battu, Vol plané","Europe, Asie",Arctique et Subartique,Diurne,75,8000
+Oxyura leucocephala,Érismature à tête blanche,Anatidae,13000,"Vol battu, Vol plané","Europe du Sud, Asie du Sud","Europe, Asie du Nord",Diurne,70,6000
+Morus bassanus,Fou de Bassan,Sulidae,700000,Vol battu,"Atlantique Nord, Méditérranée","Atlantique Nord, Europe du Nord, Amérique du Nord",Diurne,70,10000
+Aythya marila,Fuligule milouinan,Anatidae,1500000,"Vol battu, Vol plané","Europe, Méditéranée, Amérique du Nord","Amérique du Nord, Europe du Nord, Asie du Nord",Diurne,70,4000
+Aythya nyroca,Fuligule nyroca,Anatidae,70000,"Vol battu, Vol plané","Afrique Subsaharienne, Asie du Sud, Sous-continent indien","Europe centrale, Europe orientale, Asie centrale",Diurne,70,8000
+Bucephala clangula,Garrot à oeil d'or,Anatidae,200000,"Vol battu, Vol plané","Amérique du Nord, Europe","Europe du Nord, Asie du Nord, Nord du Canada, Alaska",Diurne,80,3000
+Podiceps nigricollis,Grèbe à cou noir,Podicipedidae,4000000,"Vol battu, Vol plané, Nage",Afrique subsaharienne,"Europe, Asie, Afrique du Nord",Diurne,30,5000
+Tachybaptus ruficollis,Grèbe castagneux,Podicipedidae,2600000,"Vol battu, Vol plané, Nage","Europe du Sud, Méditérannée, Amérique du Nord","Europe, Asie, Amérique du Nord",Diurne,50,4000
+Podiceps grisegena,Grèbe jougris,Podicipedidae,370000,"Vol battu, Vol plané, Nage","Europe Méditérannée, Amérique du Nord","Europe du Nord, Asie du Nord, Amérique du Nord",Diurne,40,4000
+Chlidonias hybrida,Guifette moustac,Laridae,160000,"Vol battu, Nage",Afrique Subsaharienne,"Europe, Asie, Afrique du Nord",Diurne,40,4000
+Chlidonias niger,Guifette noire,Laridae,170000,"Vol battu, Nage",Afrique Subsaharienne,"Europe, Asie, Amérique du Nord",Diurne,40,8000
+Uria aalge,Guillemot de Troïl,Alcidae,3000000,Vol battu,"Atlantique Nord, Arctique","Groenland, Island, Canada, Russie",Diurne,80,10000
+Clangula hyemalis,Harelde de Miquelon,Anatidae,6000000,Vol battu,"Côtes Atlantique Nord, Mer du Nord","Amérique du Nord arctique, Europe du Nord arctique, Asie du Nord arctique",Diurne,50,5000
+Mergus serrator,Harle huppé,Anatidae,170000,"Vol battu, Vol plané","Europe, Méditérranée, Amérique du Nord, Asie du Nord","Amérique du Nord arctique, Europe du Nord arctique, Asie du Nord arctique",Diurne,50,8000
+Fratercula arctica,Macareux moine,Alcidae,24000000,Vol battu,Atlantique Nord,"Mer du Nord, Méditérrannée",Diurne,40,5000
+Ichthyaetus melanocephalus,Mouette mélanocéphale,Laridae,600000,Vol battu,"Mer du Nord, Méditérrannée, Côtes Européennes",Atlantique Nord,Diurne,40,3000
+Hydrobates pelagicus,Pétrel tempête,Hydrobatidae,1000000,Vol battu,"Atlantique, Pacifique","Îles Subantarctique, Îles Antarctiques",Nocturne,50,20000
+Anser fabalis,Oie des moissons,Anatidae,800000,"Vol battu, Vol plané",Europe occidentale,"Amérique du Nord arctique, Europe du Nord arctique, Asie du Nord arctique",Diurne,80,10000
+Anser albifrons,Oie rieuse,Anatidae,3000000,"Vol battu, Vol plané","Mer du Nord, Mer Baltique, Amérique du Nord","Amérique du Nord arctique, Europe du Nord arctique, Asie du Nord arctique",Diurne,80,7000
+Alca torda,Petit pingouin,Alcidae,1200000,"Vol battu, Nage",Mer de l'Atlantique Nord,"Côtes Atlantique Nord, Côtes Arctique, Côtes d'Europe du Nord et de l'Ouest",Diurne,40,4000
+Mareca strepera,Canard chipeau,Anatidae,130000,Vol battu,"Europe, Méditérrannée, Amérique du Nord","Amérique du Nord, Europe du Nord, Asie du Nord",Diurne,80,5000
+Mareca penelope,Canard siffleur,Anatidae,2700000,Vol battu,"Amérique du Nord, Europe, Asie","Amérique du Nord, Europe du Nord, Asie du Nord, Arctique",Diurne,80,8000
+Phalacrocorax aristotelis,Cormoran huppé,Phalacrocoracidae,1600000,"Vol battu, Vol plané, Nage","Atlantique Nord, Mer du Nord, Mer Baltique",Côtes Europe du Nord,Diurne,50,3000
+Somateria mollissima,Eider à duvet,Anatidae,4000000,"Vol battu, Vol plané, Nage","Côtes Arctiques, Côtes Subarctique","Amérique du Nord Arctique, Europe Arctique, Asie Arctique",Diurne,50,6000
+Aythya ferina,Fuligule milouin,Anatidae,1000000,"Vol battu, Vol plané","Europe, Méditérrannée, Amérique du Nord","Amérique du Nord, Europe du Nord, Asie du Nord",Diurne,70,5000
+Fulmarus glacialis,Pétrel fulmar,Procellariidae,32000000,Vol battu,"Océan Atlantique, Océan Pacifique","Côtes Subantarctiques, Atlantique Nord, Pacifique",Nocturne,60,10000
+Ichthyaetus audouinii,Goéland d'Audouin,Laridae,40000,"Vol battu, Vol plané","Méditérrannée, Afrique du Nord-Ouest",Méditérannée,Diurne,40,6000
+Larus marinus,Goéland marin,Laridae,400000,"Vol battu, Vol plané","Océan Atlantique, Océan Pacifique","Côtes Atlantique Nord, Côtes Mer du Nord, Arctique",Diurne,40,8000
+Phalacrocorax carbo,Grand Cormoran,Phalacrocoracidae,1600000,"Vol battu, Vol plané, Nage","Côtes Atlantique Nord, Mer du Nord","Côtes Atalntique Nord, Mer du Nord, Mer Baltique",Diurne,40,3000
+Podiceps auritus,Grèbe esclavon,Podicipedidae,1200000,"Vol battu, Vol plané, Nage","Côtes Atlantique Nord, Pacifique Nord","Europe, Asie, Arctique, Subarctique",Diurne,60,5000
+Mergus merganser,Harle bièvre,Anatidae,2400000,"Vol battu, Vol plané","Europe, Asie du Nord et de l'Est, Amérique du Nord","Amérique du Nord, Europe du Nord, Asie du Nord, Arctique",Diurne,60,6000
+Melanitta fusca,Macreuse brune,Anatidae,1000000,"Vol battu, Vol plané, Nage","Atlantique Nord, Mer du Nord, Mer Baltique","Amérique du Nord Arctique, Europe Arctique, Asie Arctique",Diurne,60,3000
+Chroicocephalus ridibundus,Mouette rieuse,Laridae,18000000,"Vol battu, Vol plané","Europe, Asie, Amérique du Nord, Afrique du Nord","Amérique du Nord Arctique, Aurope Arctique, Asie arctique",Diurne,40,5000
+Anser anser,Oie cendrée,Anatidae,1000000,"Vol battu, Vol plané","Amérique centrale, Europe Sud, Afrique du Nord","Amérique du Nord Arctique et Subarctique, Europe du Nord Arctique et Subarctique, Asie du Nord Arctique et Subarctique",Diurne,80,10000
+Gavia arctica,Plongeon arctique,Gaviidae,2000000,Vol battu,"Côtes Atlantique, Mer Baltique, Méditérrannée, Mer noire","Amérique du Nord Arctique, Europe Arctique, Asie Arctique",Diurne,60,8000
+Gavia immer,Plongeon imbrin,Gaviidae,580000,Vol battu,"Europe du Nord, Europe de l'Ouest","Amérique du Nord Arctique, Europe du Nord Arctique",Diurne,60,10000
+Puffinus (yelkouan) mauretanicus,Puffin des Baléares,Procellariidae,25000,Vol battu,"Atlantique tropical, Méditérrannée, Afrique Nord-Ouest",Méditérrannée,Nocturne,100,12000
+Puffinus yelkouan,Puffin yelkouan,Procellariidae,30000,Vol battu,"Méditérrannée, Mer Noire",Méditérrannée,Nocturne,100,8000
+Spatula querquedula,Sarcelle d'été,Anatidae,2800000,"Vol battu, Vol plané","Afrique Centrale, Afrique du Nord","Europe, Asie",Diurne,80,4000
+Anas crecca,Sarcelle d'hiver,Anatidae,7600000,"Vol battu, Vol plané","Europe Méridionale, Afrique du Nord, Asie du Sud, Amérique du Sud","Europe, Asie, Amérique du Nord",Diurne,80,4000
+Sterna paradisaea,Sterne arctique,Laridae,2000000,Vol battu,"Amérique du Nord, Amérique du Sud, Europe, Afrique, Antarctique","Amérique du Nord Arctique, Asie Arctique, Arctique",Diurne,40,30000
+Sterna dougallii,Sterne de Dougall,Laridae,200000,Vol battu,"Amérique du Nord, Europe, Afrique, Asie","Amérique du Nord Arctique, Asie Arctique, Europe du Nord",Diurne,40,8000
